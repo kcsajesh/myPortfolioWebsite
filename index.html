@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gopal KC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navbar sharts here -->
+  <nav>
+    <img src="logos/icons8-logitech-50.png" alt="Gopal KC">
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+  <!-- navbar ends here -->
+
+  <!-- about me section starts here -->
+  <section class="hero" id="about">
+    <img src="imgs/profile2.webp" alt="Gopal-KC" loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">Hi, I am Gopal KC</h2>
+      <p class="bio-text">
+        A Web Developer
+      </p>
+      <p>Freshly graduated Electronics and Communication engineer.</p>
+    </div>
+  </section>
+
+  <!-- about me section ends here -->
+
+  <!-- skills section starts here -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="logos/html-5.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="logos/css.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="logos/js.png" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+  <!-- skills section ends here -->
+
+  <!-- projects section starts here -->
+
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="imgs/smartParkingPhoto.webp" alt="smartParking" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Smart Parking System</h3>
+        <p class="project-details">
+          A mobile application is developed from which users can get the information of available parking slots and book
+          specific slot from distant. This Parking system consists of raspberry pi and pi camera as the main components
+          for the automated operation.
+        </p>
+        <!-- <a href="#" target="_blank" class="project-link">Check it Out</a> -->
+      </div>
+      <div class="project-container project-card">
+        <img src="imgs/ticTacToePhoto.webp" alt="Tic-Tac-Toe" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Tic-Tac-Toe</h3>
+        <p class="project-details">
+          A game in which two players alternately put Xs and Os in compartments of a figure formed by two vertical lines
+          crossing two horizontal lines and each tries to get a row of three Xs or three Os before the opponent does.
+        </p>
+        <!-- <a href="#" target="_blank" class="project-link">Check it Out</a> -->
+      </div>
+      <div class="project-container project-card">
+        <img src="imgs/lineFollowingRobotPhoto.webp" alt="lineFollowingRobot" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Line Following Robot</h3>
+        <p class="project-details">
+          It is one of my college project getting familiarization with the IOT devices. Main components used are arduino
+          uno, motor, bluetooth module and ultrasonic sensor. The robot can be manually operated as well as programmmed
+          to follow the specific line.
+        </p>
+        <!-- <a href="#" target="_blank" class="project-link">Check it Out</a> -->
+      </div>
+    </div>
+  </section>
+  <!-- projects section ends here -->
+  
+  <!-- contact section starts here -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/mjvldlzp" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact  section ends here -->
+
+  <!-- footer section starts here -->
+  <footer>
+    <p class="copy">&copy; Copyright 2022</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://instagram.com/_sajeshkc_" target="_blank">Gopal KC</a>
+    </p>
+  </footer>
+  <!-- footer section ends here -->
+
+  <!-- social section starts here -->
+  <div class="socials">
+    <a href="https://facebook.com/Sajesh.kc.545" target="_blank"><img src="logos/icons8-facebook-circled.gif"
+        alt="Facebook" loading="lazy" class="socicon" /></a>
+    <a href="https://instagram.com/_sajeshkc_" target="_blank"><img src="logos/icons8-instagram.gif" alt="Instagram"
+        loading="lazy" class="socicon" /></a>
+    <a href="https://linkedin.com/in/gopal-kc-94b60323b" target="_blank"><img src="logos/icons8-linkedin-circled.gif"
+        alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/kcsajesh" target="_blank"><img src="logos/icons8-github.gif" alt="Github"
+        class="socicon" /></a>
+    <!-- social section ends here -->
+    
+    <!-- scroll to top -->
+    <i class="scroll-up" id="scroll-up"><img src="logos/icons8-scroll-up.gif" class="socicon up-arrow"
+        alt="scroll-up" /></i>
+
+    <!-- Website scripts -->
+    <script src="app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
